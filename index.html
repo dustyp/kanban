@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/html">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta name="viewport" content="width=1024, user-scalable=no">
+
+  <title>Your deck.js Presentation</title>
+
+  <!-- Required stylesheet -->
+  <link rel="stylesheet" media="screen" href="core/deck.core.css">
+
+  <!-- Extension CSS files go here. Remove or add as needed. -->
+  <link rel="stylesheet" media="screen" href="extensions/goto/deck.goto.css">
+  <link rel="stylesheet" media="screen" href="extensions/menu/deck.menu.css">
+  <link rel="stylesheet" media="screen" href="extensions/navigation/deck.navigation.css">
+  <link rel="stylesheet" media="screen" href="extensions/status/deck.status.css">
+  <link rel="stylesheet" media="screen" href="extensions/scale/deck.scale.css">
+
+  <!-- Style theme. More available in /themes/style/ or create your own. -->
+  <link rel="stylesheet" media="screen" href="themes/style/swiss.css">
+
+  <!-- Transition theme. More available in /themes/transition/ or create your own. -->
+  <link rel="stylesheet" media="screen" href="themes/transition/horizontal-slide.css">
+
+  <!-- Basic black and white print styles -->
+  <link rel="stylesheet" media="print" href="core/print.css">
+
+  <!-- Required Modernizr file -->
+  <script src="modernizr.custom.js"></script>
+</head>
+<body>
+  <div class="deck-container">
+
+    <!-- Begin slides. Just make elements with a class of slide. -->
+
+    <section class="slide">
+        <h2>What is Agile?</h2>
+      <p>Agile is a software development is a group of software development methods in which requirements and solutions evolve through collaboration between self-organizing cross-functional teams.</p>
+        <img src="http://blogs.seapine.com/wp-content/uploads/2012/02/SelfOrgTeam_9_0611_v2.png"/>
+    </section>
+
+    <section class="slide">
+        <h2>What are Sprints (Scrum)?</h2>
+      <p>Agile Sprints (Scrum) is a style of agile software development that focuses on iteration or icremental construction through fixed period cycles of planning and review.</p>
+        <img src="http://blog.kerika.com/wp-content/uploads/2013/12/scrum-sprint.gif"/>
+    </section>
+
+    <section class="slide">
+      <h2>What is Kanban?</h2>
+        <p>Agile Kanban is a continuous flow of work through a defined workflow controlled by Work In Progress (WIP) limits applied to each step.
+        </p>
+        <img src="http://www.targetprocess.com/blog/wp-content/uploads/2014/06/Kanban-with-time.jpg"/>
+
+    </section>
+
+    <section class="slide">
+        <blockquote>In all cases the ultimate objetive is: Always provide the development team with the best<sup>*</sup> thing to work on next, no more and no less.</blockquote>
+        <div>
+            <p><sup>*</sup>Best = (Most valuable | important | impactful)</p>
+        </div>
+    </section>
+
+      <section class="slide">
+          <h2>Kaban is well suited when:</h2>
+              <ul>
+                  <li>Work tends to switch context or priority rapidly and frequently</li>
+                  <li>Work is complicated by several systems, workflows, stakeholders</li>
+                  <li>Continous delivery mechanisms are in place to match the flow of work through the system</li>
+                  <li>Workflow tends to be serial and is well defined</li>
+                  <li>Team is capable of swarming when WIP is hit</li>
+              </ul>
+          <img src="http://paulklipp.com/images/Interpreting_a_Cumulative_Flow_Diagram.jpg" width="700"/>
+      </section>
+
+      <section class="slide">
+          <h2>US Content Team</h2>
+              <ul>
+                  <li>Scrum-ban</li>
+                  <li>Produt Roadmap + Technical Debt + Emergent Sales Requests + Maintenence</li>
+                  <li>Scrum failed to really achieve intended purpose.  Sprints lacked focus and felt unsustainable</li>
+                  <li>Move to Kanban reduced time spent in long meetings, forced local ownership due to continuous planning</li>
+                  <li>Multiple swim lanes made work easy to visualize.  WIP forced reality of throughput.</li>
+                  <li>Manage a responsive redesign and improved codebase while keeping highest sales throughput ever.</li>
+              </ul>
+      </section>
+
+      <section class="slide">
+          <h2>Moving to Kanban from Scrum</h2>
+          <div style="float:left;width:800px">
+          <ul>
+                  <li>Scrum-ban - handle tasks in scrum as kanban and use retros to adjust WIP</li>
+                  <li>Create any missing work agreements for workflow(s), Task WIP and Definitions of Done</li>
+                  <li>Invest in process improvement to improve flow (Traffic Jams and Air Bubbles)</li>
+                  <li>Board visualization is important. Its right in the name. Start analog if co-located.</li>
+                  <li>Get serious about cards and the board.  Board tells an accurate story.</li>
+                  <li>Incrementally remove the need for time-boxes and meeting cadence.</li>
+                  <li>Stop estimating!</li>
+                  <li>Work with Product to manage the flow of cards into Kanbans.</li>
+              </ul>
+          </div>
+          <div style="float:right;width:220px">
+              <img src="http://cdn.packagingquote.com/wp-content/uploads/2013/04/moving-boxes-216x312.jpg"/>
+          </div>
+      </section>
+
+      <section class="slide">
+          <h2>Shared Services, Dependencies & Stakeholders</h2>
+          <ul>
+              <li>Regular Dependencies = longer flow. Extend the board.</li>
+              <li>Remove dependencies through advisory roles that empower teams with skills and automation (Invest)</li>
+              <li>Stakeholders may still want planning to control decision making.  Metrics and visible boards help make teams transparent.</li>
+              <li>Roll-up teams and products into portfolio kanbans</li>
+              <li>Stand-ups in front of the board are still public.</li>
+              <li>Demos to pull in stakeholder feedback</li>
+          </ul>
+      </section>
+
+      <section class="slide">
+          <h2>Kanban Mistakes are Agile Mistakes</h2>
+          <ul>
+              <li>Cards with bad definition or no definition of done</li>
+              <li>"I did my job" = Waiting</li>
+              <li>QA as the gate of all testing and quality = Flow imbalance</li>
+              <li>Assigning work to specialists in the backlog = Artificial bottlenecks</li>
+              <li>All waiting is bad waiting.  Inventory your waiting.</li>
+              <li>Planning too far ahead = wasted time.  Roadmaps are as mythical as project plans.</li>
+              <li>Lack of team metrics means endless churn and no visibility to improve</li>
+              <li>Board is not up-to-date. Teams not motivated to kill cards.</li>
+          </ul>
+          <img src="http://cl.jroo.me/z3/U/K/c/e/a.baa-No-more-waiting.jpg"/>
+      </section>
+
+      <section class="slide">
+          <h2>Principles for Success</h2>
+          <div style="float:left;width:650px">
+          <ul>
+              <li>Autonomy, Mastery & Purpose</li>
+              <li>Understand and measure value.</li>
+              <li>Teams depend on trust, respect and clear communication.</li>
+              <li>Eliminate waiting while focusing on sustainable quality.</li>
+          </ul>
+          </div>
+          <div style="float:right;width:400px">
+              <img src="http://cvsteps.com/wp-content/uploads/banking.jpg"/>
+          </div>
+      </section>
+
+
+
+    <!-- End slides. -->
+
+    <!-- Begin extension snippets. Add or remove as needed. -->
+
+    <!-- deck.navigation snippet -->
+    <div aria-role="navigation">
+      <a href="#" class="deck-prev-link" title="Previous">&#8592;</a>
+      <a href="#" class="deck-next-link" title="Next">&#8594;</a>
+    </div>
+
+    <!-- deck.status snippet -->
+    <p class="deck-status" aria-role="status">
+      <span class="deck-status-current"></span>
+      /
+      <span class="deck-status-total"></span>
+    </p>
+
+    <!-- deck.goto snippet -->
+    <form action="." method="get" class="goto-form">
+      <label for="goto-slide">Go to slide:</label>
+      <input type="text" name="slidenum" id="goto-slide" list="goto-datalist">
+      <datalist id="goto-datalist"></datalist>
+      <input type="submit" value="Go">
+    </form>
+
+    <!-- End extension snippets. -->
+  </div>
+
+<!-- Required JS files. -->
+<script src="jquery.min.js"></script>
+<script src="core/deck.core.js"></script>
+
+<!-- Extension JS files. Add or remove as needed. -->
+<script src="extensions/menu/deck.menu.js"></script>
+<script src="extensions/goto/deck.goto.js"></script>
+<script src="extensions/status/deck.status.js"></script>
+<script src="extensions/navigation/deck.navigation.js"></script>
+<script src="extensions/scale/deck.scale.js"></script>
+
+<!-- Initialize the deck. You can put this in an external file if desired. -->
+<script>
+  $(function() {
+    $.deck('.slide');
+  });
+</script>
+</body>
+</html>
